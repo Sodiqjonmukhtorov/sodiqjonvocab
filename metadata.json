@@ -1,0 +1,6 @@
+{
+  "name": "Sodiqjon Vocabulary Memory",
+  "description": "Shaxsiy ingliz tili lug'atlarini 5 bosqichli Spaced Repetition tizimi yordamida uzoq muddatli xotirada saqlash ilovasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
