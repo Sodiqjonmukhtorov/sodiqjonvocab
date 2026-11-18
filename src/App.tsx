@@ -191,7 +191,11 @@ export default function App() {
       <footer className="border-t border-slate-200/80 bg-white/60">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500">
           <span>Sodiqjon Vocabulary Memory</span>
-          <span>1-kun · 17 November 2026</span>
+          <span className="font-mono tabular-nums">
+            {VOCABULARY_LIST[VOCABULARY_LIST.length - 1]?.dayNumber}-kun ·{' '}
+            {VOCABULARY_LIST[VOCABULARY_LIST.length - 1]?.addedLabel} ·{' '}
+            {VOCABULARY_LIST.length} ta so‘z
+          </span>
         </div>
       </footer>
     </div>
